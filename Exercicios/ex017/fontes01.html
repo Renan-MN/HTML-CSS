@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            /* 
+            Medidas Absolutas:
+                cm, mm, in, px, {pt, pc(exibido em papel)}
+
+                    in: polegada
+                    pc: paica
+
+            * Medidas Relativas:
+                em, ex, rem, vw, vh, %
+
+                    em: altura maiúscula 
+                    ex: altura x da fonte (minúscula)
+                    rem: tipo 'em' mas relacionado ao root
+                    vw: largura da viewport (tamanho da tela)
+                    vh: altura da viewport (tamanho da tela)
+
+            * W3C recomendation: 
+                px, em
+
+            * 16px geralmente = 1em
+
+            */
+
+            /* Pode usar:
+                font-size: 16px;
+                font-weight: normal;
+                font-style: italic;
+             lighter, normal, bold, bolder 
+            ou
+            de 100 - 900 */
+        }
+
+        h1 {
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            /* shorthand font
+            - font-style -> sont-wight -> font-size -> sont-famlily */
+            font: italic bolder 3em 'Word Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio soluta voluptates pariatur eum laborum consequuntur modi quasi maiores sit ipsum tenetur, unde at velit non veritatis quo. Voluptas, sint cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dolore quasi similique deleniti saepe aspernatur temporibus quaerat magni deserunt odio. Repellendus quo illum dolores sunt consectetur ab harum dicta numquam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore eaque eligendi qui a beatae saepe voluptate quas odio nisi vero officiis quasi aperiam, cumque autem impedit. In sequi est beatae.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi incidunt vitae tempora, eaque qui ratione, eos, sed corporis consectetur id deleniti possimus delectus eum veniam totam magni nulla hic cumque?</p>
+</body>
+</html>

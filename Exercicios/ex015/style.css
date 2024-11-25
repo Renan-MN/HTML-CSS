@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+    background-color: aliceblue;
+}
+
+ h1 {
+    color: cadetblue;
+    background-color: rgb(175, 213, 212);
+ }
+
+ h2 {
+    color: dodgerblue;
+ }
+
+ p {
+    text-align: justify;
+ }
+ 
