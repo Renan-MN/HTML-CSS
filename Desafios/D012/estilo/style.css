@@ -52,6 +52,11 @@ section.imagem {
     color: white;
 }
 
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.707);
+}
+
 footer {
     background-color: black;
     color: white;
